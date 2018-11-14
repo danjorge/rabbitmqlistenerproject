@@ -1,4 +1,4 @@
-package br.com.instituloatlantico.config;
+package br.com.institutoatlantico.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.QueueBuilder;

@@ -1,4 +1,4 @@
-package br.com.instituloatlantico.config;
+package br.com.institutoatlantico.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -9,7 +9,7 @@ import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import br.com.instituloatlantico.listener.RabbitMQMessageListener;
+import br.com.institutoatlantico.listener.RabbitMQMessageListener;
 
 @Configuration
 public class RabbitMQConfig {
